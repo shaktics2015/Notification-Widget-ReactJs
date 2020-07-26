@@ -1,0 +1,88 @@
+.title {
+	font-weight: bolder;
+}
+
+.mark-read {
+	color: #007bff8e;
+	text-align: right;
+	cursor: pointer;
+}
+
+.envelope-icon {
+	text-align: right;
+	cursor: pointer;
+	padding-right: 10px;
+}
+
+.mark-read:hover {
+	color: #007bfffd;
+	text-decoration: underline;
+}
+
+.notification-badge {
+	position: fixed;
+	margin-left: -5px;
+	margin-top: -9px;
+	font-size: 10px;
+	font-weight: initial;
+}
+
+.popover-body {
+	padding: 0px !important;
+	color: #212529;
+}
+
+.message {
+	border: 1px solid rgba(122, 120, 120, 0.24);
+	padding: 0px 4px;
+}
+
+.message:hover {
+	border: 1px solid gray;
+	box-shadow: -1px -1px 22px 14px #888888;
+	-webkit-transition: box-shadow 1s ease-out;
+	-moz-transition: box-shadow 1s ease-out;
+	-o-transition: box-shadow 1s ease-out;
+	transition: box-shadow 1s ease-out;
+}
+
+.unread {
+	color: #fff;
+	background-color: #007bffba;
+}
+
+.popover {
+	max-width: 400px !important;
+}
+
+.datetime {
+	text-align: right;
+	color: #6b6868;
+}
+
+.author-info {
+	display: flex;
+	padding-top: 2px;
+}
+
+.avator {
+	width: 40px;
+}
+
+.avator img {
+	height: 30px;
+	width: 30px;
+}
+
+.author {
+	padding-top: 5px;
+	flex-grow: 1;
+}
+
+.clickable-notification {
+	cursor: pointer;
+}
+
+.non-clickable-notification {
+	/* cursor: ; */
+}

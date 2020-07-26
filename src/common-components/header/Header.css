@@ -1,0 +1,26 @@
+.outbox {
+	display: flex;
+	flex-direction: column;
+	min-width: 320px;
+	width: auto;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 3;
+	background: #42484b;
+}
+
+.notification-icon-container {
+	cursor: pointer;
+	color: white !important;
+	padding: 8px 19px 8px 0;
+}
+
+@media screen and (max-width: 992px) {
+	.notification-icon-container {
+    padding: 8px 0px 8px 0;
+    text-align: center;
+    margin: 0 auto;
+	}
+}
