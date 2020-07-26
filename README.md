@@ -13,7 +13,9 @@
     http://localhost:3000/
 
 ## Screens
-
-    Downloads the file
-
  
+![Alt text](https://github.com/shaktics2015/Notification-Widget-ReactJs/blob/master/screenshots/1.png "Full screen")
+
+![Alt text](https://github.com/shaktics2015/Notification-Widget-ReactJs/blob/master/screenshots/1.png "With Details")
+
+![Alt text](https://github.com/shaktics2015/Notification-Widget-ReactJs/blob/master/screenshots/1.png "Card with read/un-read control")
